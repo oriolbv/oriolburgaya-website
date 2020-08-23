@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <desktop-nav id="desktop-nav"/>
+    <mobile-nav id="mobile-nav"/>
     <div class="view-container">
       <router-view/>
     </div>
@@ -7,9 +9,13 @@
 </template>
 
 <script>
+import DesktopNav from '@/components/DesktopNav'
+import MobileNav from '@/components/MobileNav'
 
 export default {
   components: {
+    DesktopNav,
+    MobileNav
   }
 }
 </script>

@@ -1,10 +1,10 @@
 <template>
   <div class="about-card">
     <div class="card-title">
-      <img src="https://i.pinimg.com/originals/d3/69/d9/d369d9056795f553e244da66e8297cca.png" alt="avatar" class="avatar">
+      <img :src="image" alt="avatar" class="avatar">
       <div class="title-text-content">
         <p>About me</p>
-        <h2>Johnathan Doe</h2>
+        <h2>Oriol Burgaya</h2>
       </div>
     </div>
     <div class="card-content">
@@ -42,7 +42,13 @@
 </template>
 
 <script>
+import image from "../assets/images/profile.jpg"
 export default {
+    data: function () {
+            return {
+                image: image
+            }
+        }
 }
 </script>
 
