@@ -45,10 +45,10 @@
 import image from "../assets/images/profile.jpg"
 export default {
     data: function () {
-            return {
-                image: image
-            }
+        return {
+            image: image
         }
+    }
 }
 </script>
 
