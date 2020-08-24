@@ -12,7 +12,13 @@
 import DesktopNav from '@/components/DesktopNav'
 import MobileNav from '@/components/MobileNav'
 
+
 export default {
+  data: function () {
+        return {
+            
+        }
+    },
   components: {
     DesktopNav,
     MobileNav
@@ -27,6 +33,9 @@ export default {
   margin-left: 20vw
   box-sizing: border-box
   min-height: 100vh
+  background-image: url("./assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 #mobile-nav
   display: none
 @media screen and (max-width: 1096px)

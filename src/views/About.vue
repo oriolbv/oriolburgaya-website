@@ -55,7 +55,7 @@ export default {
 <style lang="sass" scoped>
 .about-card
   min-height: calc(100vh - 150px)
-  background: #333
+  background: rgba(0, 3, 51, 0.5);
   padding: 3em
   border-radius: 10px
   color: white
