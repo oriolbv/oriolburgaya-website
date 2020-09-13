@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="card-content">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius consequatur, libero, natus, autem hic saepe exercitationem expedita alias corporis quisquam reiciendis ab quaerat rerum itaque animi repudiandae dolor in fugit ratione inventore molestiae harum accusantium dignissimos. Id praesentium quisquam asperiores ullam quaerat totam, voluptates esse vero repellendus amet, officiis inventore.</p>
+      <p>Graduated in Computer engineering and working as R&D Software Manager in Ingenia Motion Control.</p>
       <table style="width:100%">
         <tr>
           <th>Requirement</th>
